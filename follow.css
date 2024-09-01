@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.20)),url(back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.letak{
+    height: 300px;
+    width: 800px;
+    background: #08151d;
+    position: relative;
+    top: 250px;
+    border-radius: 30px;
+    border: 2px solid #004d80;
+}
+
+.icon{
+    position: relative;
+    top: 50px;
+}
+
+.tiktok{
+   max-width: 240px;
+   position: relative;
+   top: -15px;
+   transition: 1s;
+}
+
+.tiktok:hover{
+    transform: scale(1.1);
+}
+
+.instagram{
+    max-width: 200px;
+    position: relative;
+    top: -35px;
+    transition: 1s;
+}
+
+.instagram:hover{
+   transform: scale(1.1);
+}
+
+.github{
+max-width: 200px;
+position: relative;
+top: -35px;
+transition: 1s;
+}
+
+.github:hover{
+    transform: scale(1.1);
+}
+
+
+.content{
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #004d80;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top: 300px;
+}
+
+span{
+    background: #004d80;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
