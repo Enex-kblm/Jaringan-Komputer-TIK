@@ -1,2 +1,2 @@
 # Jaringan-Komputer-TIK
-tugas sekolah
+ini tugas sekolah ku bang, disuruh guru bikin website
